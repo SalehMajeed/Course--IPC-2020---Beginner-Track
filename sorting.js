@@ -5,7 +5,7 @@ function sort_arr(arr_num) {
 	return arr_num;
 }
 
-// console.log(sort_arr([20, 40, 10, 15, 25]));
+console.log(sort_arr([20, 40, 10, 15, 25]));
 
 // Insertion Sort
 // putting element at the left side and comparing right element with each left element then insert based upon condition.
@@ -25,7 +25,7 @@ function insertion_sort(arr) {
 	}
 	return arr;
 }
-// console.log(insertion_sort([11, 12, 3, 2, 5]));
+console.log(insertion_sort([11, 12, 3, 2, 5]));
 
 // Search -> find element from given value.
 function search(arr, num) {
@@ -58,7 +58,7 @@ function binary_search(arr, num) {
 		return binary_search(right, num);
 	}
 }
-// console.log(binary_search([2, 3, 4, 10, 23, 47, 56], 47));
+console.log(binary_search([2, 3, 4, 10, 23, 47, 56], 47));
 
 function sqrt(num) {
 	let left = 0;
