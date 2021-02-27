@@ -33,7 +33,7 @@ function party(n) {
 
 var result = 0;
 
-const visited = [[0], [0]];
+const visited = new Array([]);
 
 function is_safe(i, j, n) {
 	return i >= 0 && i < n && j >= 0 && j < n;
